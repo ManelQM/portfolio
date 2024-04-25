@@ -26,7 +26,7 @@ export const MyRoutes = () => {
             <Route path="/*" element={
             <div>
             <h1 className='heading'>Error 404</h1>
-            </div> } />
+            </div> }/>
         </Routes>
       </section>
         <Footer/>
