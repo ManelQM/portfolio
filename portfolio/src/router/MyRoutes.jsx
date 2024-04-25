@@ -23,6 +23,10 @@ export const MyRoutes = () => {
             <Route path="/skills" element={<Skills/>}/>
             <Route path="/cv" element={<Cv/>}/>
             <Route path="/contact" element={<Contact/>}/>
+            <Route path="/*" element={
+            <div>
+            <h1 className='heading'>Error 404</h1>
+            </div> } />
         </Routes>
       </section>
         <Footer/>
