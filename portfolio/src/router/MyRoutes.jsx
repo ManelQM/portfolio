@@ -7,7 +7,7 @@ import { Cv } from '../components/Cv';
 import {Contact} from '../components/Contact';
 import { HeaderNav } from '../components/layout/HeaderNav';
 import {Footer} from "../components/layout/Footer"; 
-
+import { Work } from '../components/Work';
 
 export const MyRoutes = () => {
   return (
@@ -23,6 +23,7 @@ export const MyRoutes = () => {
             <Route path="/skills" element={<Skills/>}/>
             <Route path="/cv" element={<Cv/>}/>
             <Route path="/contact" element={<Contact/>}/>
+            <Route path="/work/:id" element={<Work/>}/>
             <Route path="/*" element={
             <div>
             <h1 className='heading'>Error 404</h1>
